@@ -12,7 +12,6 @@ public class Main {
         Map m = streams.toMap(p->p.getName(), p->p);
         m.forEach((k,v)-> System.out.println(k + " -> " + v));
 
-
        /* Stream <Person> m = people.stream();
        m.filter(p->p.getAge()>20).map(p->new Person(p.getName(), p.getAge()+30)).forEach(System.out::println);;*/
       //m.trasform(p->n)
